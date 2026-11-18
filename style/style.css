@@ -1,5 +1,6 @@
 body {
     display: flex;
+    flex-direction: column; /* For fremtidig navbar */
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -11,53 +12,62 @@ body {
     background-repeat: no-repeat;
     color: white;
 
-    font-family: "Outfit", Arial;
+    font-family: "Outfit", Arial, Helvetica, sans-serif;
     font-size: 2rem;
     user-select: none;
 }
 
 main {
-    display: flex;
-    flex-direction: column;
-    width: 90vw;
-    gap: 50px;
+    display: grid; /* Bør nok hjelpe i de andre sidene */
+    width: 85vw;
+    gap: 30px;
 }
 
 h1, h6 {
-    margin: 2rem;
+    margin: 2rem 0;
 }
 
-#menu {
+#menu ol {
     list-style: none;
     margin: 0;
     padding: 0;
     height: 30vh;
 
-    display: grid;
+    display: grid; /* For fremtidig media funksjoner */
     grid-template-columns: repeat(3, 1fr);
 }
 
-#menu li {
+#menu ol li {
     display: flex;
     justify-content: center;
     align-items: center;
 
     border: 5px white solid;
-    background-color: rgba(33, 33, 33, 0.2);
     border-right: none;
+
+    background-color: rgba(33, 33, 33, 0.2);
     transition: 0.25s;
 }
 
-#menu li:last-child {
+#menu ol li a {
+    text-decoration: none;
+    color: white;
+}
+
+#menu ol li:last-child {
     border-right: 5px white solid;
 }
 
-#menu li:hover {
+#menu ol li:hover {
     background-color: rgba(66, 31, 101, 0.3);
     box-shadow: 0 0 66px rgba(66, 31, 101, 0.9);
 }
 
-#menu li a {
-    text-decoration: none;
-    color: white;
+#menu ol li:active {
+    background-color: white;
+    box-shadow: 0 0 66px rgba(255, 255, 255, 0.9);
+}
+
+#menu ol li:active a{
+    color: black;
 }
