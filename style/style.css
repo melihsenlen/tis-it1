@@ -1,6 +1,6 @@
 body {
     display: flex;
-    flex-direction: column; /* For fremtidig navbar */
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -19,7 +19,7 @@ body {
 
 main {
     display: grid; /* Bør nok hjelpe i de andre sidene */
-    width: 85vw;
+    width: 80vw;
     gap: 30px;
 }
 
@@ -27,11 +27,40 @@ h1, h6, p {
     margin: 2rem 0;
 }
 
+nav {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 100%;
+}
+
+nav ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    gap: 20px;
+}
+
+nav ol li a {
+    text-decoration: none;
+    color: rgb(100, 70, 140);
+}
+
+nav ol li {
+    transition: 0.25s;
+}
+
+nav ol li:hover {
+    text-shadow: 0 0 10px rgba(100, 70, 140, 0.9);
+}
+
 #menu ol {
     list-style: none;
     margin: 0;
     padding: 0;
-    height: 30vh;
+    height: 25vh;
 
     display: grid; /* For fremtidig media funksjoner */
     grid-template-columns: repeat(3, 1fr);
@@ -62,8 +91,8 @@ h1, h6, p {
 }
 
 #menu ol li:hover {
-    background-color: rgba(66, 31, 101, 0.3);
-    box-shadow: 0 0 66px rgba(66, 31, 101, 0.9);
+    background-color: rgba(100, 70, 140, 0.3);
+    box-shadow: 0 0 66px rgba(100, 70, 140, 0.9);
 }
 
 #menu ol li:active {
