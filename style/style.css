@@ -18,22 +18,23 @@ body {
 }
 
 main {
-    margin-top: 10vh; /* Hensyn til navbaren */
+    margin-top: 15vh; /* Hensyn til navbaren */
     display: grid; /* Bør nok hjelpe i de andre sidene */
     width: 80vw;
 }
 
 h1, h6, p {
-    margin: 2rem 0;
+    margin: 0 0 1.5rem 0;
 }
 
 nav {
     position: fixed;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     width: 100%;
-    padding: 2vh;
-    background-color: rgba(0, 0, 0, 0.9);
+    padding: 20px;
+    background-color: rgba(1, 1, 1, 0.9);
+    box-shadow: 0 0 20px rgba(100, 70, 140, 0.9);
 }
 
 nav ol {
@@ -42,8 +43,7 @@ nav ol {
     padding: 0;
 
     display: flex;
-    gap: 2vh;
-    font-size: 3vh;
+    gap: 20px;
 }
 
 nav ol li a {
@@ -70,7 +70,7 @@ nav ol li:active a {
     padding: 0;
     height: 25vh;
 
-    display: grid; /* For fremtidig media funksjoner */
+    display: grid; /* For media queries */
     grid-template-columns: repeat(3, 1fr);
 }
 
@@ -110,4 +110,33 @@ nav ol li:active a {
 
 #menu ol li:active a{
     color: black;
+}
+
+@media (max-height: 650px), (max-width: 350px) {
+    nav {
+        padding: 10px;
+    }
+
+    nav ol {
+        font-size: 0.75em;
+    }
+}
+
+@media (max-width: 440px) { /* Iphone 16 pro max bredde */
+    body {
+        font-size: 1.5rem;
+    }
+
+    #menu ol {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #menu ol li:last-child {
+        grid-column: span 2;
+        border-top: none;
+    }
+
+    #menu ol li:nth-child(2) {
+        border-right: 2px white solid;
+    }
 }
