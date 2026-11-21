@@ -18,7 +18,7 @@ body {
 }
 
 main {
-    margin-top: 15vh; /* Hensyn til navbaren */
+    margin: 25vh 0 15vh 0;
     display: grid; /* Bør nok hjelpe i de andre sidene */
     width: 80vw;
 }
