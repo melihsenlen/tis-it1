@@ -112,7 +112,7 @@ nav ol li:active a {
     color: black;
 }
 
-@media (max-width: 440px) { /* Iphone 16 pro max bredde */
+@media (max-width: 460px) { /* litt større enn iphone 16 pro max bredde */
     #menu ol {
         grid-template-columns: 1fr 1fr;
     }
@@ -125,16 +125,19 @@ nav ol li:active a {
     #menu ol li:nth-child(2) {
         border-right: 2px white solid;
     }
+
+    body {
+        font-size: 1.5rem;
+    }
 }
 
-@media (max-width: 620px), (max-height: 380px) {
+@media (max-width: 620px) {
     nav ol {
-        font-size: 0.7em;
-        gap: 10px;
+        gap: 15px;
     }
 
     nav {
-        padding: 10px;
+        padding: 15px;
     }
 
     h1 {
@@ -146,8 +149,24 @@ nav ol li:active a {
     }
 }
 
-@media (max-width: 340px) {
+@media (max-width: 390px), (max-height: 490px) {
     body {
-        font-size: 1rem;
+        font-size: 1.25rem;
+    }
+
+    main {
+        margin-top: 30vh;
+    }
+
+    h1 {
+        font-size: 1em;
+    }
+
+    h6 {
+        font-size: 0.5em;
+    }
+
+    nav ol {
+        font-size: 0.75em;
     }
 }
