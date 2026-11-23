@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="zyl9TerYIIAFXm1TMtGP" name="Page-1">
-        <mxGraphModel dx="1548" dy="1175" grid="1" gridSize="5" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1068" dy="811" grid="1" gridSize="5" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -9,9 +9,6 @@
                 </mxCell>
                 <mxCell id="tTPnaFWl2lnukJudCz67-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="Navbar&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
                     <mxGeometry height="60" width="850" as="geometry"/>
-                </mxCell>
-                <mxCell id="tTPnaFWl2lnukJudCz67-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="Kilder" vertex="1">
-                    <mxGeometry height="60" width="850" y="550" as="geometry"/>
                 </mxCell>
                 <mxCell id="tTPnaFWl2lnukJudCz67-6" edge="1" parent="1" source="4k6fhIicR13qoI1gIUmO-2" style="endArrow=none;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" value="">
                     <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -28,13 +25,13 @@
                 <mxCell id="tTPnaFWl2lnukJudCz67-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;NO-BOK&quot;&gt;På hvilke måter kan AI både styrke og true&lt;br/&gt;digital sikkerhet og personvern, og hva kan den enkelte gjøre for å beskytte&lt;br/&gt;seg?&lt;/span&gt;&lt;/p&gt;" vertex="1">
                     <mxGeometry height="80" width="420" x="215" y="200" as="geometry"/>
                 </mxCell>
-                <mxCell id="tTPnaFWl2lnukJudCz67-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Side1" vertex="1">
+                <mxCell id="tTPnaFWl2lnukJudCz67-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Forsvar" vertex="1">
                     <mxGeometry height="140" width="280" y="300" as="geometry"/>
                 </mxCell>
-                <mxCell id="tTPnaFWl2lnukJudCz67-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Side 2" vertex="1">
+                <mxCell id="tTPnaFWl2lnukJudCz67-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Angrep" vertex="1">
                     <mxGeometry height="140" width="280" x="285" y="300" as="geometry"/>
                 </mxCell>
-                <mxCell id="tTPnaFWl2lnukJudCz67-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Side 3" vertex="1">
+                <mxCell id="tTPnaFWl2lnukJudCz67-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Kilder" vertex="1">
                     <mxGeometry height="140" width="280" x="570" y="300" as="geometry"/>
                 </mxCell>
                 <mxCell id="4k6fhIicR13qoI1gIUmO-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="AI:&amp;nbsp; Skjold og sverd" vertex="1">
@@ -43,13 +40,13 @@
                 <mxCell id="4k6fhIicR13qoI1gIUmO-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Forside" vertex="1">
                     <mxGeometry height="60" width="100" x="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="4k6fhIicR13qoI1gIUmO-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Side1" vertex="1">
+                <mxCell id="4k6fhIicR13qoI1gIUmO-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Forsvar" vertex="1">
                     <mxGeometry height="60" width="100" x="160" as="geometry"/>
                 </mxCell>
-                <mxCell id="4k6fhIicR13qoI1gIUmO-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Side2" vertex="1">
+                <mxCell id="4k6fhIicR13qoI1gIUmO-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Angrep" vertex="1">
                     <mxGeometry height="60" width="100" x="270" as="geometry"/>
                 </mxCell>
-                <mxCell id="4k6fhIicR13qoI1gIUmO-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Side3" vertex="1">
+                <mxCell id="4k6fhIicR13qoI1gIUmO-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Kilder" vertex="1">
                     <mxGeometry height="60" width="100" x="380" as="geometry"/>
                 </mxCell>
             </root>
