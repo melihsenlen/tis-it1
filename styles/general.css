@@ -13,7 +13,7 @@ body {
     color: white;
 
     font-family: "Outfit", Arial, Helvetica, sans-serif;
-    font-size: 2rem;
+    font-size: 1.9rem;
     user-select: none;
 }
 
@@ -23,7 +23,7 @@ main {
     width: 80vw;
 }
 
-h1, h6, p {
+h1, h2, h3, h4, h5 h6, p {
     margin: 0 0 1.5rem 0;
 }
 
@@ -112,21 +112,7 @@ nav ol li:active a {
     color: black;
 }
 
-@media (max-height: 650px), (max-width: 350px) {
-    nav {
-        padding: 10px;
-    }
-
-    nav ol {
-        font-size: 0.75em;
-    }
-}
-
 @media (max-width: 440px) { /* Iphone 16 pro max bredde */
-    body {
-        font-size: 1.5rem;
-    }
-
     #menu ol {
         grid-template-columns: 1fr 1fr;
     }
@@ -138,5 +124,30 @@ nav ol li:active a {
 
     #menu ol li:nth-child(2) {
         border-right: 2px white solid;
+    }
+}
+
+@media (max-width: 620px), (max-height: 380px) {
+    nav ol {
+        font-size: 0.7em;
+        gap: 10px;
+    }
+
+    nav {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h6 {
+        font-size: 0.75em;
+    }
+}
+
+@media (max-width: 340px) {
+    body {
+        font-size: 1rem;
     }
 }
