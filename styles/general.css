@@ -80,7 +80,6 @@ ul {
 }
 
 #menu ol li {
-
     border: 2px white solid;
     border-right: none;
 
@@ -148,8 +147,32 @@ ul {
     }
 }
 
-@media (max-width: 385px), (max-height: 300px) {
+@media (max-width: 385px), (max-height: 350px) {
     body {
         font-size: 1rem;
+    }
+
+    #menu ol li {
+        border: 1px white solid;
+        border-right: none;
+    }
+
+    #menu ol li:nth-child(2), #menu ol li:last-child {
+        border-right: 1px white solid;
+    }
+
+}
+
+@media (max-width: 320px), (max-height: 300px) {
+    body {
+        font-size: 0.75rem;
+    }
+
+    nav {
+        font-size: 0.75em;
+    }
+
+    #menu ol {
+        height: 40vh;
     }
 }
