@@ -18,13 +18,14 @@ body {
 }
 
 main {
-    margin: 25vh 0 15vh 0;
+    margin: 20vh 0 10vh 0;
     display: grid; /* Bør nok hjelpe i de andre sidene */
     width: 80vw;
+    gap: 20px;
 }
 
-h1, h2, h3, h4, h5 h6, p {
-    margin: 0 0 1.5rem 0;
+h1, h2, h3, h4, h5, h6, p, q {
+    margin: 0 0 0.2em 0;
 }
 
 nav {
@@ -32,9 +33,9 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px;
+    padding: 3vh;
     background-color: rgba(1, 1, 1, 0.9);
-    box-shadow: 0 0 20px rgba(100, 70, 140, 0.9);
+    box-shadow: 0 0 20px rgba(138, 97, 193, 0.9);
 }
 
 nav ol {
@@ -43,12 +44,12 @@ nav ol {
     padding: 0;
 
     display: flex;
-    gap: 20px;
+    gap: 3vh;
 }
 
 nav ol li a {
     text-decoration: none;
-    color: rgb(100, 70, 140);
+    color: rgb(138, 97, 193);
 }
 
 nav ol li a {
@@ -56,12 +57,16 @@ nav ol li a {
 }
 
 nav ol li:hover a {
-    text-shadow: 0 0 10px rgba(100, 70, 140, 0.9);
+    text-shadow: 0 0 10px rgba(138, 97, 193, 0.9);
 }
 
 nav ol li:active a {
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.9);
     color: white;
+}
+
+ul {
+    margin: 10px 0;
 }
 
 #menu ol {
@@ -99,8 +104,8 @@ nav ol li:active a {
 }
 
 #menu ol li:hover {
-    background-color: rgba(100, 70, 140, 0.3);
-    box-shadow: 0 0 66px rgba(100, 70, 140, 0.9);
+    background-color: rgba(138, 97, 193, 0.3);
+    box-shadow: 0 0 66px rgba(138, 97, 193, 0.9);
 }
 
 #menu ol li:active {
@@ -112,7 +117,13 @@ nav ol li:active a {
     color: black;
 }
 
-@media (max-width: 460px) { /* litt større enn iphone 16 pro max bredde */
+@media (max-width: 700px), (max-height: 500px) {
+    body {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 500px) { /* litt større enn iphone 16 pro max viewport */
     #menu ol {
         grid-template-columns: 1fr 1fr;
     }
@@ -127,46 +138,18 @@ nav ol li:active a {
     }
 
     body {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 }
 
-@media (max-width: 620px) {
-    nav ol {
-        gap: 15px;
-    }
-
-    nav {
-        padding: 15px;
-    }
-
-    h1 {
-        font-size: 1.5em;
-    }
-
-    h6 {
-        font-size: 0.75em;
-    }
-}
-
-@media (max-width: 390px), (max-height: 490px) {
+@media (max-width: 420px), (max-height: 400px) {
     body {
-        font-size: 1.25rem;
+        font-size: 1rem;
     }
+}
 
-    main {
-        margin-top: 30vh;
-    }
-
-    h1 {
-        font-size: 1em;
-    }
-
-    h6 {
-        font-size: 0.5em;
-    }
-
-    nav ol {
-        font-size: 0.75em;
+@media (max-width: 320px), (max-height: 300px) {
+    body {
+        font-size: 0.7rem;
     }
 }
