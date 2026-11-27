@@ -5,3 +5,12 @@ main {
 p, q {
     font-size: 0.75em;
 }
+
+.kilder {
+    text-decoration: none;
+    color: white;
+}
+
+.kilder:hover {
+    text-decoration: underline;
+}
