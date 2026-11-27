@@ -6,5 +6,5 @@ img.to_image_file(
     path="ascii.png",
     monochrome=True,
     stroke_width=1,
-    columns=50
+    columns=100
 )
