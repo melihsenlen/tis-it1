@@ -142,14 +142,14 @@ ul {
     }
 }
 
-@media (max-width: 420px), (max-height: 400px) {
+@media (max-width: 450px), (max-height: 400px) {
     body {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 }
 
-@media (max-width: 320px), (max-height: 300px) {
+@media (max-width: 385px), (max-height: 300px) {
     body {
-        font-size: 0.7rem;
+        font-size: 1rem;
     }
 }
