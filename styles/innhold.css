@@ -8,9 +8,16 @@ p, q {
 
 .kilder {
     text-decoration: none;
-    color: white;
+    font-style: italic;
+    color: rgb(138, 97, 193);
+    transition: 0.2s;
 }
 
 .kilder:hover {
-    text-decoration: underline;
+    text-shadow: 0 0 5px rgb(138, 97, 193);
+}
+
+.kilder:active {
+    color: white;
+    text-shadow: 0 0 5px white;
 }
